@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para Maratona 🏅</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/coding.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="img/undraw_exploring_re_grb8.svg">
+        </div>
+        <div class="form">
+            <form action="#" method="post" name="formulario">
+                <h1 id="maratona">MARATONA DE PROGRAMAÇÃO DA FACULDADE DE INFORMÁTICA - FIPP</h1>
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="new">
+                        <a href="https://www.devmedia.com.br/novos-tipos-de-input-da-html-5/27109">Novos input do HTML5</a>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome:</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome:</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="text" name="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular:</label>
+                        <input id="number" type="text" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha:</label>
+                        <input id="password" type="text" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Confirmpassword">Confirme sua senha:</label>
+                        <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Digite sua senha novamente " required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <h6>Escolha qual curso você pertence:</h6>
+                        <select name="curso" required>
+                            <option selected disabled value="">Selecione</option>
+                            <option>Ciência da Computação</option>
+                            <option>Engenharia de Software</option>
+                            <option>Análise e Desenvolvimento de Sistemas</option>
+                        </select>
+                    </div>
+
+                        <div class="tecnologias">
+                            <h6>Selecione quais tecnologias você domina:</h6>
+                            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                            <label for="tecnologia1"> HTML</label>
+                       
+                            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                            <label for="tecnologia2">CSS</label>
+                        
+                            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JAVASCRIPT">
+                            <label for="tecnologia3">JavaScript</label>
+                        
+                            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PYTHON">
+                            <label for="tecnologia4">Python</label>
+                    
+                            <input type="checkbox" id="tecnologia5" name="tecnologia5" value="JAVA">
+                            <label for="tecnologia5">Java</label>   
+                        </div>    
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero:</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Outros</label>
+                    
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about">
+                    <h6>Descreva os motivos que levaram você a participar da maratona:</h6>
+                    <textarea name="motivos" id="motivos" rows="10" cols="50"></textarea>
+                    <img src="img/medal.png" alt="medalha" width="180" height="170">
+                </div>
+
+                
+                <div class="cadastro-sucesso">
+                    <button>Cadastro realizado com sucesso!!!</button>
+                </div>
+            </form>
+        </div>    
+    </div>
+</body>
+</html>
